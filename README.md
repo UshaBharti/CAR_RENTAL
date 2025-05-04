@@ -1,4 +1,6 @@
 # CAR_RENTAL
+
+
 @Override
     public void addCar(Vehicle_Details car) throws SQLException, ClassNotFoundException {
     	
@@ -120,7 +122,11 @@
         det.setEngineCapacity(rs.getDouble("engineCapacity"));
         return det;
     }
-    /////*******************************************
+*******************************************
+
+
+
+    
 package com.java.car_rental.dao;
 
 import java.sql.SQLException;
@@ -139,6 +145,10 @@ public interface Payment_Dao {
 
 
 ***********************************************************************
+
+
+
+
 package com.java.car_rental.dao;
 import java.sql.Date;
 import java.sql.SQLException;
@@ -159,6 +169,10 @@ public interface Lease_Dao {
 
 
 ****************************************************************************
+
+
+
+
 package com.java.car_rental.dao;
 import java.sql.SQLException;
 import java.util.List;
@@ -176,6 +190,9 @@ public interface Customer_Dao {
 
 
 ***********************************************************************************
+
+
+
 package com.java.car_rental.dao;
 import java.sql.SQLException;
 import java.time.LocalDate;
@@ -198,6 +215,9 @@ public interface Car_Dao {
 
 
 *******************************************************
+
+
+
 package com.java.car_rental.main;
 import java.sql.Date;
 import java.sql.SQLException;
@@ -639,6 +659,11 @@ public class Main {
 	}
 }
 ********************************************************8
+
+
+
+
+
 package com.java.car_rental.dao;
 import java.sql.Connection;
 import java.sql.Date;
@@ -716,6 +741,9 @@ public class PaymentdaoImpl implements Payment_Dao {
 
 
 ********************************************
+
+
+
 package com.java.car_rental.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -824,6 +852,8 @@ public class LeasedaoImpl implements Lease_Dao{
 }
 
 *****************************************************
+
+
 package com.java.car_rental.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -908,7 +938,11 @@ public class CustomerdaoImpl implements Customer_Dao {
 	}
 
 }
-***************************************************@Override
+***************************************************
+
+
+
+@Override
     public void addCar(Vehicle_Details car) throws SQLException, ClassNotFoundException {
     	
 
